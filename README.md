@@ -2,9 +2,25 @@
 
 ## Overview
 
+**Would You Rather** is the final project for Udacity's React Nanodegree program. It was designed to test our knowledge of React, Redux, and unit testing with React and Jest. The user is given questions with two possible choices. They can answer questions, see questions they haven't answered, see how other people voted, and see user ranking on the leaderboard page. Starter code is provided including a Data.js file, which represents a database and has methods to access the data. I bootstrapped this project using [Creact React App](https://github.com/facebook/create-react-app).
 
+## Screen Shots of App
 
-## Screen Shots
+#### Login Page
+
+## ![Login Page](src/assets/screenshots/LoginPageGroup.png)
+
+#### Home Page
+
+## ![Home Page](src/assets/screenshots/HomepageGroup.png)
+
+#### Answered Questions
+
+## ![Answered Questions](src/assets/screenshots/AnsweredQuestionGroup.png)
+
+#### New Question
+
+## ![New Question Page](src/assets/screenshots/NewQuestion.png)
 
 ## App Functionality
 
@@ -25,9 +41,11 @@
 Avatar images:
 
 - [Pixabay](https://pixabay.com/)
+
 * [SketchandBuild](https://www.flaticon.com/free-icons/afro)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Available Scripts
 
 In the project directory, you can run:
