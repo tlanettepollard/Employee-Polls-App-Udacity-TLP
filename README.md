@@ -40,15 +40,15 @@
   https://www.npmjs.com/get-npm
 - Install all project dependencies with `npm install`.
   - Dependencies You Need to Install:
-    - --save react-router-dom
-    - --save react
-    - --save react-dom
-    - --save react-redux
-    - --save react-redux-loading
-    - --save react-scripts
-    - --save redux
-    - --save redux-thunk
-    - --save jest
+    - `--save react-router-dom`
+    - `--save react`
+    - `--save react-dom`
+    - `--save react-redux`
+    - `--save react-redux-loading`
+    - `--save react-scripts`
+    - `--save redux`
+    - `--save redux-thunk`
+    - `--save jest`
 - Then run, `npm start` to start the server and to display the application.
 - To run tests, use `npm test`.
 
