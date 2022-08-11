@@ -20,13 +20,13 @@
 
 #### New Question
 
-## ![New Question Page](src/assets/screenshots/NewQuestion.png)
+## ![Poll Page & New Question Page](src/assets/screenshots/PollDetailsNewQuGroup.png)
 
 ## App Functionality
 
-- Login
-- Homepage
-- Poll details
+- Login: The user has a dropdown menu with a list of login in names. The user chooses one name to enter the app.
+- Homepage: When the user logs in, they will see the homepage with tabs showing their unanswered and answered polls. The polls are ordered from newest (top) to oldest (bottom).
+- Poll details: Each question has two answer options.
 - 404 page
 - Voting
 - Post Question
