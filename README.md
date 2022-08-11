@@ -26,13 +26,19 @@
 
 - Login: The user has a dropdown menu with a list of login in names. The user chooses one name to enter the app.
 - Homepage: When the user logs in, they will see the homepage with tabs showing their unanswered and answered polls. The polls are ordered from newest (top) to oldest (bottom).
-- Poll details: Each question has two answer options.
-- 404 page
-- Voting
-- Post Question
-- Leaderboard
+- Poll details: Each question has two answer options. After the user answers the question, they are taken to the next page that shows the percentage of people who voted for the same option. There will be a mark by the logged in user's name.
+- 404 page: Users will see this page when a poll doesn't exist.
+- Voting: User is only allowed to vote once for each poll.
+- Post Question: Users can add a new question using the form on the New Question page. Once the user has added their choices, then they click the submit button to add their question.
+- Leaderboard: This page includes the states for each user. The users are organized in descending order based on the number of questions they have asked and the number they have answered. Users who ask and answer more questions have a hire rating.
 
 ## Installation and Launch Instructions
+
+- First you need to Clone or download this repository.
+- Next you need to open a terminal in the project directory.
+- Install Node.js. You can find the package using the following link:
+  https://www.npmjs.com/get-npm
+- Install npm and all project dependencies with **npm install** 
 
 ## References and Resources
 
