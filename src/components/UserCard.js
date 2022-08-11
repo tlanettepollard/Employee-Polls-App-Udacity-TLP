@@ -29,7 +29,7 @@ const UserCard = (props) => {
 								<Card.Text>{optionOne.text.slice(0, 50)}...?</Card.Text>
 
 								<Link to={`/questions/${id}`}>
-									<Button variant='warning'>Show Details</Button>
+									<Button variant='warning' className='btn'>Show Details</Button>
 								</Link>
 							</Card.Body>
 							<Card.Footer className='bg-info'>

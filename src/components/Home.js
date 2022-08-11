@@ -13,7 +13,7 @@ const Home = (props) => {
 
 	return (
 		<Fragment>
-			<Container fluid className='m-auto w-75 p-5'>
+			<Container fluid className='m-auto h-100 w-75 px-5 pb-5'>
 				<Row>
 					<Col>
 						<Tabs>

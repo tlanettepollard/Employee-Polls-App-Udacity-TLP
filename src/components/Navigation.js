@@ -102,7 +102,7 @@ const Navigation = (props) => {
 							to='#'
 							onClick={handleClick}
 							className='d-flex align-contents-center fs-6 text-center p-2'>
-							<Button className='btn-warning'>Sign Out</Button>
+							<Button className='btn btn-warning'>Sign Out</Button>
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

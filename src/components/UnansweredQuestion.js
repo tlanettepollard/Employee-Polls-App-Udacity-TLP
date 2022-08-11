@@ -69,7 +69,7 @@ const UnansweredQuestion = (props) => {
 										name='answer'
 										className='mb-2'
 									/>
-									<Button type='submit' variant='outline-dark'>
+									<Button type='submit' variant='outline-dark' className='btn'>
 										Vote
 									</Button>
 								</Form>
