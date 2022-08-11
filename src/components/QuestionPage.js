@@ -79,21 +79,23 @@ const QuestionPage = (props) => {
 										<p className='fw-bold'>{optionOneText}</p>
 										<Button
 											onClick={() => handleClick('optionOne')}
-											className='btn-warning'>
+											className='btn btn-warning'>
 											Choose Option 1
 										</Button>
 										<hr />
 										<p className='fw-bold'>{optionTwoText}</p>
 										<Button
 											onClick={() => handleClick('optionTwo')}
-											className='btn-warning'>
+											className='btn btn-warning'>
 											Choose Option 2
 										</Button>
 									</Card.Body>
 								</Card>
 								<Container fluid className='my-5 d-flex justify-content-center'>
 									<Link to='/'>
-										<Button variant='primary' className=' btn-lg p-2 btn-warning'>
+										<Button
+											variant='primary'
+											className='btn btn-lg p-2 btn-warning'>
 											Back to Home
 										</Button>
 									</Link>
@@ -109,7 +111,7 @@ const QuestionPage = (props) => {
 							</Card.Header>
 							<Card.Body>
 								<p className='fs-5'>{selectedVote}</p>
-								<Button disabled className='fs-4'>
+								<Button disabled className='btn fs-4'>
 									Vote
 								</Button>
 
@@ -138,7 +140,7 @@ const QuestionPage = (props) => {
 						</Card>
 						<Container fluid className='my-5 d-flex justify-content-center'>
 							<Link to='/'>
-								<Button variant='primary' className=' btn-lg p-2'>
+								<Button variant='primary' className='btn btn-lg p-2'>
 									Back to Home
 								</Button>
 							</Link>

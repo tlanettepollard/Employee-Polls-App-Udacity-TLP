@@ -65,7 +65,8 @@ const Login = ({ users, dispatch }) => {
 										) : (
 											<Button
 												onClick={handleLogin}
-												className='w-100 mt-3 btn-lg btn-info'>
+													className='w-100 mt-3 
+													btn btn-lg btn-info'>
 												Sign In
 											</Button>
 										)}

@@ -112,7 +112,7 @@ const NewPoll = ({ dispatch, authedUser }) => {
 							<div className='p-3'>
 								<Button
 									type='submit'
-									className='col-6 offset-3 p-2 btn-warning'
+									className='btn col-6 offset-3 p-2 btn-warning'
 									data-testid='option-submit'>
 									Submit
 								</Button>
