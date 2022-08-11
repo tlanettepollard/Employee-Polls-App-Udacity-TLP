@@ -36,10 +36,10 @@
 
 - First you need to Clone or download this repository.
 - Next you need to open a terminal in the project directory.
-- Install Node.js. You can find the package using the following link:
+- Install **Node.js**. You can find the package using the following link:
   https://www.npmjs.com/get-npm
-- Install npm and all project dependencies with **npm install**
-  - Dependencies Needed:
+- Install all project dependencies with `npm install`.
+  - Dependencies You Need to Install:
     - react-router-dom
     - react
     - react-dom
@@ -48,6 +48,8 @@
     - react-scripts
     - redux
     - redux-thunk
+- Then run, `npm start` to display the application.
+- To run tests, use `npm test`.
 
 ## References and Resources
 
