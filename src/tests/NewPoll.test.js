@@ -25,7 +25,8 @@ describe('NewPoll', () => {
 	it('will add a question to the array', async () => {
 		fireEvent.change(inputOne, { target: { value: 'Create a React app' } });
 		fireEvent.change(inputTwo, { target: { value: 'Create an Angular app' } });
-		expect(component.getByTestId('success-header')).toBeInTheDocument();
+		fireEvent.click(submitBtn);
+		expect(component.queryByTestId('success-header')).toBeInTheDocument();
 		expect(component.queryByTestId('error-header')).not.toBeInTheDocument();
 	});
 
